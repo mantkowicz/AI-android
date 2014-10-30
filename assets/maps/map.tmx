@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="150" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="mapTile" tilewidth="16" tileheight="16">
+  <image source="mapTile.png" width="80" height="80"/>
+ </tileset>
+ <layer name="Images" width="200" height="150">
+  <data encoding="base64" compression="zlib">
+   eJzt17dxAwAAxDDJOee4/6L+c6EZWKBggw14PBwOZ+t8XazLdWSM/dvVul4363bdMcZOdr8e1uN6Ws+MsZO9rNf1tt7XB2PsZJ/ra32vn/XLGDtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq1nphRirWemFGKtZ6YUYq9kfiBTzvA==
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="200" height="150">
+  <object type="column" x="1712" y="1312" width="32" height="32">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Actors" width="200" height="150">
+  <object type="zombie" x="1680" y="1152" width="16" height="16">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="1808" y="1440" width="16" height="16">
+   <ellipse/>
+  </object>
+  <object type="player" x="1488" y="1280">
+   <polygon points="0,0 0,32 32,16"/>
+  </object>
+ </objectgroup>
+</map>
