@@ -9,19 +9,96 @@
   </data>
  </layer>
  <objectgroup name="Walls" width="200" height="150">
-  <object type="column" x="1712" y="1312" width="32" height="32">
+  <object type="player" x="1664" y="928">
+   <polygon points="0,0 -32,48 32,48"/>
+  </object>
+  <object type="column" x="1248" y="736" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="column" x="784" y="1280" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="column" x="2032" y="144" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="column" x="3072" y="704" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="column" x="3024" y="1520" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="column" x="1872" y="1888" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="column" x="2112" y="1120" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="1616" y="1456" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="768" y="1472" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="592" y="1120" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="352" y="1376" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="1248" y="1968" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="1824" y="2096" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="2240" y="1984" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="2192" y="560" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="2672" y="1056" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="1776" y="464" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="816" y="640" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="1296" y="1136" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="400" y="544" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="2720" y="1840" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="2528" y="1264" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="2480" y="2096" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="1104" y="1664" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="864" y="1920" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="1056" y="880" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="624" y="1808" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="912" y="1088" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object type="zombie" x="576" y="384" width="64" height="64">
    <ellipse/>
   </object>
  </objectgroup>
- <objectgroup name="Actors" width="200" height="150">
-  <object type="zombie" x="1680" y="1152" width="16" height="16">
-   <ellipse/>
-  </object>
-  <object type="zombie" x="1808" y="1440" width="16" height="16">
-   <ellipse/>
-  </object>
-  <object type="player" x="1488" y="1280">
-   <polygon points="0,0 0,32 32,16"/>
-  </object>
- </objectgroup>
+ <objectgroup name="Actors" width="200" height="150"/>
 </map>
